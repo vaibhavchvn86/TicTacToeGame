@@ -6,7 +6,7 @@ namespace TicTacToe
 {
     public class TicTacToeGame
     {
-
+        public char[] arr;
         /// <summary>
         /// UC1 Assigns the empty space.
         /// </summary>
@@ -37,6 +37,20 @@ namespace TicTacToe
             }
             else
                 Console.WriteLine("Invalid input Choose X or O only");
+        }
+        public static void showBoard()
+        {
+            AssignEmptySpace();
+           
+            Console.WriteLine("Creating a TicTacToe Game Board");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("  {1}  |  {2}  |  {3}");
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("  {4}  |  {5}  |  {6}");
+            Console.WriteLine("_____|_____|_____");
+            Console.WriteLine("     |     |     ");
+            Console.WriteLine("  {7}  |  {8}  |  {9}");
         }
     }
 }
