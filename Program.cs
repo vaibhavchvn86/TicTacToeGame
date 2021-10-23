@@ -8,8 +8,9 @@ namespace tictactoe
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to tictactoe");
-            TicTacToeGame.AssignEmptySpace();
-            TicTacToeGame.XorO();
+            //TicTacToeGame.AssignEmptySpace();
+            //TicTacToeGame.XorO();
+            TicTacToeGame.showBoard();
         }
     }
 }
